@@ -1,0 +1,130 @@
+## 1. VISÃO GERAL DO PROJETO
+
+O **Invitation Tracker** é um sistema web e mobile desenvolvido para centralizar, automatizar e otimizar o gerenciamento logístico de convidados em eventos corporativos ou institucionai**s**.
+
+A solução busca reduzir erros manuais, aumentar a confiabilidade das informações e oferecer uma experiência fluida e integrada a todos os perfis de usuário — administradores, equipe de campo e convidados.
+
+O sistema é composto por três módulos principais:
+
+- **Módulo Web:** gerenciamento completo de convidados, equipes e eventos;
+- **Módulo Mobile:** interface otimizada para a equipe de campo acompanhar e atualizar status em tempo real;
+- **Portal do Convidado:** acesso simples às informações de transporte, voo e QR Code de identificação.
+
+## 2. OBJETIVO DO PROJETO
+
+Desenvolver e implantar uma plataforma unificada que:
+
+- Simplifique a logística de recepção e translado de convidados;
+- Permita acompanhamento em tempo real das etapas de transporte;
+- Gere relatórios automáticos e personalizados de desempenho;
+- Proporcione uma experiência intuitiva e moderna aos usuários.
+
+## 3. JUSTIFICATIVA
+
+Atualmente, o processo de acompanhamento de convidados é descentralizado, sujeito a erros humanos e com falhas na comunicação entre equipes.
+
+O *Invitation Tracker* surge como resposta à necessidade de uma **gestão integrada e automatizada**, reduzindo atrasos e inconsistências operacionais, ao mesmo tempo em que **melhora a experiência do convidado e a eficiência da equipe organizadora**.
+
+## 4. ESCOPO DO PROJETO
+
+### 4.1. Escopo Incluido
+
+- Autenticação via Google OAuth 2.0;
+- Importação e validação automática de planilhas de convidados (CSV/XLSX);
+- Dashboard com status em tempo real;
+- Atribuição de equipe de campo a convidados específicos;
+- Portal com QR Code de identificação e acesso rápido para convidados;
+- Integração com Google Maps para estimativa de chegada;
+- Relatórios personalizados de performance e tempo médio de translado;
+- Aplicativo móvel responsivo e compatível com principais navegadores e dispositivos.
+
+### 4.2. Escopo Excluido
+
+- Integração com outros CRMs ou ERPs externos;
+- Emissão de passagens ou reservas.
+
+## ENTREGAS PRINCIPAIS
+
+| **Entrega** | **Descrição** | **Data Prevista** |
+| --- | --- | --- |
+| Documento de requisitos e escopo | Especificação técnica e funcional | 25/09/2025 |
+| Protótipos e diagramas | Wireframes e modelagem UML | 04/09/2025 |
+| Módulo Web funcional | Painel administrativo completo | 09/10/2025 |
+| Aplicativo Mobile | Interface de campo com atualização em tempo real | 16/10/2025 |
+| Portal do Convidado | Acesso individual e QR Code de identificação | 23/10/2025 |
+| Testes piloto e relatórios | Coleta de feedbacks e métricas | 23/11/2025 |
+| Versão final e deploy | Sistema em produção | 04/12/2025 |
+
+## 6. PREMISSAS E RESTRIÇÕES
+
+### 6.1. Premissas
+
+- A infraestrutura de hospedagem será previamente configurada;
+- Todos os usuários terão acesso à internet e dispositivos compatíveis;
+- As APIs externas (Google OAuth, Google Maps) estarão disponíveis e estáveis.
+
+### 6.2. Restrições
+
+- O prazo final não poderá ultrapassar 04/12/2025;
+- O desenvolvimento deverá ocorrer em ambiente seguro com backup diário;
+- Alterações de escopo deverão ser formalmente aprovadas pela equipe gestora.
+
+## 7. INDICADORES DE SUCESSO
+
+### Objetivo 1: Melhorar a experiência do usuário
+
+- **KR1:** Tempo de carregamento < 3 segundos
+- **KR2:** 95% de sucesso em testes de usabilidade
+- **KR3:** CSAT ≥ 8,5
+
+### Objetivo 2: Aumentar confiabilidade e precisão dos dados
+
+- **KR1:** Reduzir erros de importação em 90%
+- **KR2:** 100% correspondência entre status e translado real
+- **KR3:** Falhas < 1%
+
+### Objetivo 3: Garantir entrega dentro do prazo e da qualidade
+
+- **KR1:** 100% das tarefas concluídas até 04/12/2025
+- **KR2:** 80% de feedback positivo no teste piloto
+- **KR3:** Redução de retrabalho ≥ 50% em relação à primeira fase
+
+## 8. PRINCIPAIS RISCOS IDENTIFICADOS
+
+| **Risco** | **Probabilidade** | **Impacto** | **Mitigação** |
+| --- | --- | --- | --- |
+| Instabilidade nas APIs do Google | Média | Alto | Implementar cache e monitoramento local |
+| Erros na importação de dados | Alta | Médio | Implementar validação automática de planilhas |
+| Atrasos no cronograma | Média | Alto | Revisão semanal de entregas e buffers no cronograma |
+| Resistência dos usuários no piloto | Baixa | Médio | Treinamentos e coleta de feedback antecipado |
+
+## 9. EQUIPE DO PROJETO
+
+| **Nome** | **Função / Responsabilidade** |
+| --- | --- |
+| Renan Gabriel Silva | Desenvolvedor Backend – Integrações, APIs e autenticação |
+| Bruno Wanderson Lopes | Desenvolvedor Frontend – Interfaces Web e Mobile |
+| Emanuel Aurélio Miranda | QA e Infraestrutura – Testes, deploy e monitoramento |
+| Vitoria Karolina Sousa | Gerente de Projeto – Planejamento, escopo, comunicação e acompanhamento
+Desenvolvedor(a) Backend - Integrações, APIs e autenticação |
+
+## 10. COMUNICAÇÃO E GOVERNANÇA
+
+- **Reuniões diárias (Daily):** status das tarefas (15 min)
+- **Revisões semanais (Review):** apresentação de progresso e validação de entregas
+- **Canal oficial:** Notion e Overleaf (documentação) e Discord (comunicação rápida)
+- **Relatórios:** atualizações semanais no painel do Notion
+
+## 11. APROVAÇÃO
+
+Ao aprovar este documento, os participantes concordam com os objetivos, escopo, cronograma e responsabilidades descritos, formalizando o início oficial do projeto *Invitation Tracker*.
+Ao aprovar este documento, os participantes concordam com os objetivos, escopo, cronograma e responsabilidades descritos, formalizando o início oficial do projeto *Invitation Tracker*.
+
+---
+
+| **Nome** | **Função** | **Data** |
+| --- | --- | --- |
+| Vitoria Karolina Ferreira Sousa | Gerente de Projeto | 21/08/2025 |
+| Renan Gabriel Gonçalves Silva | Desenvolvedor Backend | 21/08/2025 |
+| Emanuel Aurélio de Miranda | QA tester e Infra | 21/08/2025 |
+| Bruno Wanderson Lopes | Desenvolvedor Frontend | 21/08/2025 |
